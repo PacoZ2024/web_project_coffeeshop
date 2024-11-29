@@ -16,13 +16,53 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@14..32,700&family=Noto+Serif:ital@0;1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <img
+          class="header__background-image"
+          src="./images/background_header.svg"
+        />
+        <nav class="nav">
+          <img
+            class="nav__logo"
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logo Triple Espresso"
+          />
+          <ul class="nav_links">
+            <li><a class="nav__link" href="#">Recetas</a></li>
+            <li><a class="nav__link" href="#">Reservar una mesa</a></li>
+            <li><a class="nav__link" href="#">Contactos</a></li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Café de especialidad</span>
+          en Triple Peaks
+        </h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y motivar tu creatividad.
+        </p>
+        <img
+          class="header__image"
+          src="./images/inside_coffee_shop.png"
+          alt="Cafetería Triple Peaks"
+        />
+        <div class="header__footers">
+          <ul class="header__footer">
+            <li>Horario:</li>
+            <li>Lunes a Viernes (de 10:00h a 19:00h)</li>
+            <li>Sábados y Domingos (de 11:00h a 18:00h)</li>
+          </ul>
+          <p class="header__paragraph">
+            Avenida del Éxito 200, Ciudad Triple Peaks
+          </p>
+        </div>
+      </header>
       <main class="content">
         <section class="recipes"></section>
         <section class="reservation"></section>

@@ -210,13 +210,13 @@
 
 /*Mezcla para acomodar las etiquetas dentro del formulario*/
 
-.form__fieldset__form__label {
+.form__label_margin {
   margin: 32px 0 8px;
 }
 
 /*Elimina el margen superior de la primer etiqueta*/
 
-.form__fieldset__form__label:first-of-type {
+.form__label_margin:first-of-type {
   margin-top: 0;
 }
 
